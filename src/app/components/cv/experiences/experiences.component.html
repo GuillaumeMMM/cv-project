@@ -1,0 +1,22 @@
+<section id="experiences" [ngsReveal]="{ duration: 1000,origin: 'bottom',distance: '50px',viewFactor: 0.5}">
+  <h3>EXPERIENCES</h3>
+
+  <div id="timeline"></div>
+
+  <div id="job-description-small" *ngFor='let job of jobs'>
+    <br>
+    <h1 id="job-title">{{job.job}}</h1>
+    <p id="job-dates">{{job.dates}}</p>
+    <p id="job-detail">{{job.detail}}</p>
+    <br><br><br>
+  </div>
+
+  <div class="job-description">
+    <br>
+    <h1 id="job-title">{{selectedJobID}}</h1>
+    <p id="job-dates">{{selectedJobDates}}</p>
+    <p id="job-detail">{{selectedJobDetail}}</p>
+    <br>
+    <div id="skills-circles"></div>
+  </div>
+</section>

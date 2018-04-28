@@ -1,0 +1,70 @@
+#experience{
+    width:80%;
+    margin-left:10%;
+    margin-top:10%;
+}
+
+hr{
+    width:100%;
+    margin-left:0;
+    opacity:0.3;
+}
+
+h3{
+    margin-bottom:0;
+    font-weight: 100;
+    font-size:2em;
+    text-align:center;
+}
+
+.logo{
+    width:10%;
+    float:left;
+    margin-left:5%;
+    margin-top:3%;
+}
+
+.experience-text{
+    margin-top:5%;
+    font-size:14px;
+}
+
+.text-container{
+    width:70%;
+    margin-right:5%;
+    float:right;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.experience-title{
+    font-weight: 100;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.skill-text{
+    display:inline;
+}
+
+@media (max-width: 800px) {
+
+    .text-container{
+        width:100%;
+        float:none;
+        margin-bottom:10%;
+    }
+
+    .logo{
+        float:none;
+        width:20%;
+        margin-left:40%;
+    }
+
+    .formation-title{
+       text-align:center;
+    }
+ 
+ }

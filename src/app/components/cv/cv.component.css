@@ -1,0 +1,9 @@
+.clearfix{
+    clear: both;
+}
+
+.button{
+    margin-top:15px;
+    width:30%;
+    margin-left:35%;
+}

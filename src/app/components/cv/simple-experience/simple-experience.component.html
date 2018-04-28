@@ -1,0 +1,22 @@
+<section id="experience" [ngsReveal]="{ duration: 1000,origin: 'bottom',distance: '50px',viewFactor: 0.5}">
+  <h3>EXPERIENCE</h3>
+  <br>
+  <div *ngFor="let job of data">
+    <img class="logo" [src]="job.img">
+    <div class="text-container">
+      <h4 class="experience-title">{{job.job}} | {{job.dates}}</h4>
+      <p class="experience-text">{{job.detail}}</p>
+      <p class="experience-text">
+        Compétences développées :
+        <span *ngFor="let skill of job.skills; last as isLast"> 
+          <span *ngIf="!isLast">{{skill.name}}, </span>
+          <span *ngIf="isLast">{{skill.name}}.</span>
+        </span>
+      </p>
+    </div>
+    <div class='clearfix'></div>
+    <br>
+    <br>
+  </div>
+  <div class='clearfix'></div>
+</section>

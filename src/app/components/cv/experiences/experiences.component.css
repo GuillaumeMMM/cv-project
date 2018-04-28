@@ -1,0 +1,85 @@
+#experiences{
+    width:80%;
+    margin-left:10%;
+    margin-top:10%;
+}
+
+hr{
+    width:100%;
+    margin-left:0;
+    opacity:0.3;
+}
+
+h3{
+    margin-bottom:0;
+    font-weight: 100;
+    font-size:2em;
+    text-align:center;
+}
+
+#job-title{
+    font-weight: 100;
+    font-size:5.5vh;
+    text-align:center;
+    margin-bottom:0;
+}
+
+#job-detail{
+    width:60%;
+    margin:0 auto;
+    font-size:1.5vh;
+    text-align:center;
+}
+
+#job-dates{
+    margin-top:0;
+    width:100%;
+    text-align:center;
+    font-size:1.5vh;
+}
+
+#developped-skills{
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+    font-weight: 50;
+    font-size:14px;
+    text-align:center;
+    text-justify: inter-word;
+}
+
+#timeline-menu{
+    display:none;
+}
+
+#job-description-small{
+    display:none;
+}
+
+@media (max-width: 800px) {
+    #timeline{
+        display:none;
+    }
+    #timeline-menu{
+        display:block;
+    }
+    #main-svg{
+        display:none;
+    }
+    .job-description{
+        display:none;
+    }
+    #job-description-small{
+        display:block;
+    }
+    #job-detail{
+        width:100%;
+        margin:0 auto;
+        font-size:14px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    #job-title{
+        font-size:22px;
+    }
+}
